@@ -33,7 +33,14 @@ package in.hubachov.codewars.java;
  * Created by Sashko on 6/15/17.
  */
 public class BouncingBall {
-
+/*
+	public static int bouncingBall(double h, double bounce, double window) {
+		if (h > 0 && 0 < bounce && bounce < 1 && window < h)
+			return 1 + 2 * (int) Math.floor(Math.log(window / h) / Math.log(bounce));
+		else
+			return -1;
+	}
+*/
 	public static int bouncingBall(double h, double bounce, double window) {
 		if (bounce >= 1.0 || window == h || h < 0.0 || bounce < 0.0) {
 			return -1;
