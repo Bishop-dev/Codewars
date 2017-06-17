@@ -13,20 +13,11 @@ import java.util.stream.Collectors;
  * Created by Sashko on 6/16/17.
  */
 public class FindOdd {
-
 /*
-	public static int findIt(int[] A) {
-	    int xor = 0;
-	    for (int i = 0; i < A.length; i++) {
-	        xor ^= A[i];
-	    }
-	    return xor;
-    }
-
 	public static int findIt(int[] arr) {
 		return Arrays.stream(arr).reduce(0, (x, y) -> x ^ y);
 	}
-	*/
+*/
 	public static int findIt(int[] A) {
 		final Map<Integer, Long> map = Arrays
 				.stream(A)
